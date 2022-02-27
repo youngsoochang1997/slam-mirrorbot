@@ -1,0 +1,13 @@
+{
+    "env": {
+        "CONFIG_FILE_URL": {
+            "required": true
+        }
+    },
+    "formation": {
+        "web": {
+            "quantity": 1
+        }
+    },
+    "stack": "container"
+}
