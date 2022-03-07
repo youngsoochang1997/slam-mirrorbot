@@ -1,8 +1,14 @@
 {
+    "scripts": {},
     "env": {
-        "CONFIG_FILE_URL": {
-            "required": true
+        "CONFIG_FILE_URL": "https://gist.githubusercontent.com/youngsoochang1997/2a23371b3908c04925a635e8a1ed3b3c/raw/config.env"
+    },
+    "formation": {
+        "web": {
+            "quantity": 1
         }
     },
+    "addons": [],
+    "buildpacks": [],
     "stack": "container"
 }
